@@ -1,0 +1,428 @@
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Montserrat, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+body {
+  margin: 0;
+}
+
+p {
+  color: #444;
+}
+
+.main-head,
+.main-head ~ p {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logo-wrap {
+  margin-left: 1.3rem;
+  margin-right: -2.6em;
+  float: left;
+  width: 30px;
+  padding-top: .5rem;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+}
+
+.coco {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1.3rem;
+  font-size: 1.25rem;
+  color: #fff;
+  margin-top: .5rem;
+}
+
+header {
+  font-family: Lobster, cursive;
+}
+
+.text-decoration {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-head {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.table-h2 {
+  margin-left: .5rem;
+}
+
+.main-head ~ p {
+  color: #fff;
+}
+
+h2, h3 {
+  font-family: Lobster, serif;
+  color: #481600;
+}
+
+.label {
+  padding-top: .3rem;
+  margin-bottom: -.3rem;
+  display: block;
+  background-color: #481600;
+}
+
+nav {
+  text-align: center;
+  width: 100%;
+}
+
+nav ul li {
+  list-style-type: none;
+  text-align: center;
+  margin-top: .1rem;
+}
+
+.coco-wrap a {
+  text-decoration: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: .2rem;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+  color: #481600;
+  transition: all 250ms linear;
+  background-color: #fff;
+}
+
+.promo-links li a {
+  color: #fff;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.banner-wrap {
+  position: relative;
+}
+
+.banner {
+
+  background:
+    linear-gradient(to top, rgba(48, 32, 19, .8), rgba(48, 32, 19, 0) 50%),
+    url("../images/banner.jpg") no-repeat center bottom / cover;
+  height: 400px;
+  color: #fff;
+}
+
+.gifts-banner {
+
+  background: url("../images/card-3.jpg") no-repeat center bottom / cover;
+  background-color: rgba(48, 32, 19, 10);
+  height: 400px;
+  color: #fff;
+  text-align: center;
+
+}
+
+.chocolate-banner {
+
+  background: url("../images/card-1.jpg") no-repeat center bottom / cover;
+  background-color: rgba(48, 32, 19, 10);
+  height: 400px;
+  color: #fff;
+  text-align: center;
+
+}
+
+.experience-banner {
+
+  background: url("../images/chef-3.jpg") no-repeat center bottom / cover;
+  background-color: rgba(48, 32, 19, 10);
+  height: 400px;
+  color: #fff;
+  text-align: center;
+
+}
+
+.banner-body {
+  width: 80%;
+  min-width: 60%;
+  margin: 0 auto;
+  display: block;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.slogan {
+  font-family: Montserrat, sans-serif;
+  font-size: .9rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  border: solid 1px #fff;
+  border-radius: 5px;
+  padding: .5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #481600;
+  transition: all 250ms linear;
+}
+
+.btn-light {
+  background-color: #666;
+}
+
+.link-card-group {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+.link-card {
+  display: inline-block;
+  margin-top: 2rem;
+  max-height: 125px;
+  overflow: hidden;
+  margin-bottom: -2rem;
+  position: relative;
+}
+
+.card-text {
+  left: 50%;
+  max-width: 45em;
+  padding: 0 1em;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: #fff;
+  font-size: 1.5rem;
+
+  transform: translate(-50%, -50%);
+}
+
+.h2-gifts-banner {
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 8rem;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.h2-chocolate-banner {
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 8rem;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.h2-experience-banner {
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 8rem;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.promo-links {
+  margin: 0 auto;
+  color: #fff;
+}
+
+.promo-links li {
+  list-style-type: none;
+}
+
+form {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.center-form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+footer {
+  background: url("../images/icon.svg") center bottom / cover;
+  background-size: 67px auto;
+  height: 100px;
+  margin-top: 3rem;
+  background-color: #481600;
+  color: #fff;
+}
+
+.table-margin {
+  margin-left: .5rem;
+}
+
+.form-margin {
+  margin-left: .5rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4rem;
+  }
+
+  .nav-wrap {
+    display: inline-block;
+    position: absolute;
+    z-index: 1000;
+    top: 8px;
+    right: 20px;
+  }
+
+  nav li a {
+    display: inline-block;
+    text-align: left;
+  }
+
+  nav ul li {
+    display: inline-block;
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+  nav a:hover,
+  nav a:focus,
+  nav a:active {
+    color: #fff;
+    transition: all 250ms linear;
+    background-color: #481600;
+    border: solid 2px #fff;
+    border-radius: 10px;
+  }
+
+  .banner-img-wrap {
+    max-height: 600px;
+    overflow: hidden;
+  }
+
+  .logo-wrap {
+    margin-left: 1.3rem;
+    margin-right: -2.6em;
+    float: left;
+    width: 35px;
+    padding-top: .3rem;
+  }
+
+  .embed-card {
+    width: 100%;
+    height: 100%;
+  }
+
+  .link-card {
+    display: inline-block;
+    margin-top: 2rem;
+    max-height: 100px;
+    overflow: hidden;
+  }
+
+  .banner-wrap {
+    position: relative;
+    margin-bottom: -2rem;
+  }
+
+  .link-card-group {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 5rem;
+  }
+
+  .card-text {
+    font-size: 1.5rem;
+  }
+
+  .table-margin {
+    margin-left: 0;
+  }
+
+  .coco {
+    text-align: left;
+    padding-left: 5rem;
+    padding-bottom: .5rem;
+    font-size: 1.25rem;
+    color: #fff;
+    margin-top: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5rem;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .link-card {
+    display: inline-block;
+    margin-top: 2rem;
+    max-height: 175px;
+    overflow: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+
+  .link-card {
+    display: inline-block;
+    margin-top: 2rem;
+    max-height: 300px;
+    overflow: hidden;
+  }
+
+}

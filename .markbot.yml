@@ -1,0 +1,101 @@
+repo: 'confectionery-website'
+canvasCourse: 'web-dev-3'
+
+naming: true
+liveWebsite: true
+
+git:
+  numCommits: 10
+  allCommitted: true
+  allSynced: true
+
+allFiles:
+  files:
+    maxWidth: 2500
+    maxHeight: 2500
+    maxSize: 300
+    smushed: true
+
+html:
+  - path: 'index.html'
+    valid: true
+    bestPractices: true
+    outline: true
+    has:
+      - ['link[href*="modules.css"] + link[href*="grid.css"]', 'The `modules.css` file must come before the `grid.css` file']
+      - ['link[href*="grid.css"] + link[href*="type.css"]', 'The `grid.css` file must come before the `type.css` file']
+      - ['link[href*="type.css"] + link[href*="main.css"]', 'The `type.css` file must come before the `main.css` file']
+      - ['link[href*="fonts.googleapis.com"]', 'A webfont from Google Fonts should be used']
+      - '.skip-links'
+      - 'header[role="banner"]'
+      - 'header h1'
+      - 'header nav'
+      - 'header nav li'
+      - 'header nav li a'
+      - 'main[role="main"]'
+      - 'section'
+      - 'footer'
+      - 'img.img-flex'
+      - 'h2'
+      - 'div'
+      - '.grid'
+      - '.unit'
+      - '.embed'
+      - '.embed-item'
+      - '[class*="list-group"]'
+      - '[class*="gutter-"]'
+      - '[class*="push-"]'
+      - '[class*="pad-"]'
+      - '[class*="xs-"]'
+      - '[class*="s-"]'
+      - '[class*="m-"]'
+      - '[class*="l-"]'
+      - ['form[method="POST"][action*="formspree.io"]', 'The `<form>` should submit to @@https://formspree.io/@@']
+      - 'label[for]'
+      - 'input[id][name]'
+      - 'button[type="submit"]'
+      - 'footer[role="contentinfo"]'
+    search:
+      - 'micro|milli|kilo|mega|giga|tera|peta|exa|zetta|yotta'
+
+css:
+  - path: 'css/modules.css'
+    valid: true
+    bestPractices: true
+    search:
+      - ['https://modulifier.web-dev.tools/', 'Modulifier wasn’t used to generate this file.']
+  - path: 'css/grid.css'
+    valid: true
+    bestPractices: true
+    search:
+      - ['https://gridifier.web-dev.tools/', 'Gridifier wasn’t used to generate this file.']
+  - path: 'css/type.css'
+    valid: true
+    bestPractices: true
+    search:
+      - ['https://typografier.web-dev.tools/', 'Typograpfier wasn’t used to generate this file.']
+  - path: 'css/main.css'
+    valid: true
+    bestPractices: true
+    search:
+      - 'background'
+      - 'url\("'
+
+functionality:
+  - path: 'index.html'
+    tests:
+      - |
+        let headerLink = $('header nav a');
+        let oldBg = css(headerLink).backgroundColor;
+        let oldColor = css(headerLink).color;
+
+        hover('header nav a', function () {
+          if (css(headerLink).backgroundColor == oldBg && css(headerLink).color == oldColor) fail('The `background-color` or `color` of the navigation links don’t change when hovered')
+          pass();
+        });
+
+performance:
+  - path: 'index.html'
+
+files:
+  - directory: 'images'
