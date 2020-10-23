@@ -11,6 +11,11 @@ html {
   box-sizing: inherit;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -49,7 +54,7 @@ p {
   margin: 0 auto;
   padding-bottom: 1.3rem;
   font-size: 1.25rem;
-  color: #fff;
+  color: #F1C40F;
   margin-top: .5rem;
 }
 
@@ -84,8 +89,23 @@ h2, h3 {
   padding-top: .3rem;
   margin-bottom: -.3rem;
   display: block;
-  background-color: #481600;
+  background-color: #CC0236;
 }
+
+
+
+#adv{
+  text-align: center;
+  font-size: 14px;
+  color: #FB0303;
+  margin-left: 41px;
+  margin-right: 41px
+}
+#adv:hover{
+  font-size: 17px;
+
+}
+
 
 nav {
   text-align: center;
@@ -390,6 +410,10 @@ footer {
     margin-top: 0;
   }
 
+}
+
+#moveef{
+  border-radius: 85px;
 }
 
 @media only screen and (min-width: 60em) {
