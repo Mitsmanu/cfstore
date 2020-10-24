@@ -2,24 +2,7 @@
 summary: 'Create a single-page website for a confectionery store—showing what you learned this term.'
 time: '10 hours'
 deliverables: '1 HTML file, 4 CSS files, images'
-download: 'https://assets.learn-the-web.algonquindesign.ca/web-dev-3/confectionery-website-download.zip'
----
-
-# Confectionery website
-
-## Overview
-
-- *Fork this repository.*
-- Create a complete, single-page website for a confectionery store.
-  The name of the company must be either:
-  - **Beau’s Bonbons**
-  - **Coco’s Chocolatiers**
-- *It should have real text content*—**that you have to write yourself.**
-- It should be completely designed, with real images, real colours—and it should look amazing.
-- *The website should obviously be fully responsive: working on screensizes from `320px` all the way to `~2500px`.*
-- There’s are a bunch of images that you can download and use in the site.
-- **Run it through Markbot and make sure it passes all the checks.**
-
+Demo: 'https://www.folklore-panama.online'
 ---
 
 ## Teacher’s expectations
