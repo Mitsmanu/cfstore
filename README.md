@@ -1,10 +1,10 @@
 ---
 summary: 'Create a single-page website for a confectionery store—showing what you learned this term.'
 time: '10 hours'
-deliverables: '1 HTML file, 4 CSS files, images'
+deliverables: '5 HTML file, 7 CSS files, images'
 Demo: 'https://www.folklore-panama.online'
 ---
-![Netlify Status](https://api.netlify.com/api/v1/badges/0c8da0c4-1beb-4b69-ac44-1c41d455a499/deploy-status)
+Deployed status → ![Netlify Status](https://api.netlify.com/api/v1/badges/0c8da0c4-1beb-4b69-ac44-1c41d455a499/deploy-status)
 
 ## Teacher’s expectations
 
