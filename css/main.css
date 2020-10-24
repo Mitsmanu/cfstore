@@ -283,6 +283,12 @@ nav a:active {
   color: #fff;
 }
 
+.p1{
+  color: yellow;
+  text-align: center;
+  font-size: 17px;
+}
+
 .promo-links li {
   list-style-type: none;
 }
