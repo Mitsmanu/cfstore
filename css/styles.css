@@ -485,7 +485,7 @@ footer p {
 }
 
 .cardImg {
-  width: 100%;
+  width: 70%;
   height: 50%;
   background-position: center;
   background-size: cover;
@@ -498,7 +498,7 @@ footer p {
 }
 
 img {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   max-width: 80%;
   width: 80%;
