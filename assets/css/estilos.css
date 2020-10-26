@@ -1,0 +1,56 @@
+/*Estilo del index */
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+br{
+    text-decoration: darkblue;
+}
+/*Estilo de las casillas del login */
+input[type="text"], input[type="password"]{
+ outline: none;
+ padding: 20px;
+ display: block;
+ width: 300px;
+ border-radius: 3px;
+ border: 2px solid blueviolet;
+ margin: 20px auto;
+
+}
+
+/*Estilo del boton del login */
+input[type="submit"]{
+    padding: 10px;
+    color: yellowgreen;
+    background: rgb(149, 26, 165);
+    width: 320px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*Estilo del boton del login cuando se pulsa */
+input[type="submit"]::hover{
+    background-color: lightseagreen;
+}
+/*Estilo del encabezado*/
+header{
+    background-color: cornflowerblue;
+    border-bottom: 2px solid blueviolet;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+header a{
+    text-decoration: crimson;
+    color:blue;
+    background-color: cyan;
+}
