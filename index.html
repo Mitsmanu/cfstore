@@ -20,8 +20,48 @@
 
   gtag('config', 'G-ECSDXN1NMM');
 </script>
+
+<script src="./script/init_alert.js" type="text/javascript"></script>
+
+
+
+
+
+
 </head>
 <body>
+<script language="JavaScript" type="text/javascript">
+
+  alert("Pagina en mantenimiento, por favor ingrese sus credenciales.\n"+
+    "La página Artesanias y Creaciones Folkloricas Paola se encuentra en mantenimiento, es por ello que el acceso es limitado a usuarios administrativos ")
+
+  var op = prompt("Ingrese usuario administrativo");
+  var user = "Manu";
+  var user2 = "Mayra";
+  var user3 = "Efrain";
+  var pass = "12345"
+
+  if(op === user || op === user2 || op === user3){
+    var utr = prompt("Ingrese su contraseña")
+
+    if(utr === pass){
+      alert("Bienvenido")
+    }else{
+      alert("Constraseña incorrecta")
+      location.href="https://www.folklore-panama.online"
+    }
+
+
+  }else{
+    alert("Acceso denegado")
+    location.href="http://www.google.com";
+    alert("Redireccionando a Google.com");
+  }
+
+</script>
+  
+
+
  
 
 
@@ -48,8 +88,11 @@
           <ul class="list-group">
             <li class="milli"><a href="./html/collections.html">Catálogo</a></li>
             <li class="milli"><a href="./html/novedades.html">Novedades</a></li>
-            <li class="milli"><a href="#experience">Experiencia</a></li>
+            <li class="milli"><a href="#">Experiencia</a></li>
             <li class="milli"><a href="mailto:">Contacto</a></li>
+        
+
+
           </ul>
         </nav>
       </div>
@@ -215,6 +258,7 @@
                 Designed by
                 Manuel Herrera</p>
   </footer>
+
 
 
 </body>
