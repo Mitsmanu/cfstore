@@ -1,0 +1,25 @@
+body{
+		background-color: #676D6C;
+
+	}
+
+	h1{
+		color: white;
+		text-align: center;
+
+	}
+
+	a{
+		text-decoration: none;
+		color: black;
+		
+	}
+
+	a:hover{
+		font-size: 21px;
+		color: red;
+	}
+
+	.str{
+		color: black;
+	}
