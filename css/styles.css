@@ -497,12 +497,12 @@ footer p {
   z-index: 2;
 }
 
-/*img {
+img {
   display: inline-block;
   margin: 0 auto;
   max-width: 80%;
   width: 80%;
-}*/
+}
 
 .cardImg:hover {
   -webkit-transform: scale(1.1);
