@@ -941,7 +941,7 @@ footer .social-links ul {
 }
 
 .card-collection .img-collection {
-  background-image: ("/catalogoimg/roja.png");
+  background-image: url("/catalogoimg/roja.png");
 }
 
 .card-collection .img2-collection {
