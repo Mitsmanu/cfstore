@@ -4,26 +4,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Register</title>
-	<link rel="stylesheet" href="../css/styles">
+	<link rel="stylesheet" href="../css/priv.css">
+	<link rel="icon" href="https://img.icons8.com/dusk/64/000000/database-restore.png">
 </head>
-<style type="text/css" media="screen">
 
-	body{
-		background-color: black;
 
-	}
-
-	h1{
-		color: white;
-		text-align: center;
-
-	}
-
-	a{
-		text-decoration: none;
-	}
-	
-</style>
 <script language="JavaScript" type="text/javascript">
 
   alert("Sistema de reportes de gastos administrativos ")
@@ -38,7 +23,10 @@
     var utr = prompt("Ingrese su contraseña")
 
     if(utr === pass){
-      alert("Bienvenido")
+      alert("Bienvenido " + op + "\n"+
+      	"Su numero identificador es 25TgTT89A")
+
+     
     }else{
       alert("Constraseña incorrecta")
       location.href="https://www.folklore-panama.online"
@@ -51,17 +39,23 @@
     alert("Redireccionando a Google.com");
   }
 
+  document.getElementById('op').innerHTML = op;
+
 </script>
 
 <body>
 	<h1> Directorio de registro de datos</h1>
 
 	<h2 id="lec">Sistema de registro de libros</h2>
+	<h3 id="h3e">Base de datos del registro de informes de gastos generales <strong class="str">Artesanías y Creaciones Folkloricas Paola</strong></h3>
+	<p id="op">Usuario: Administrativo </p>
+
 
 <div id="fdf">
 	<ul>
-		<li><a id="loc" href="https://jdevelopers.xyz/doc-priv/Gastos26_octubre_20.pdf">Libro 26/10/20</a></li>
-		<li><a id="loc" href="https://jdevelopers.xyz/doc-priv/Gastos24_octubre_20.pdf">Libro 24/10/20</a></li>
+		<li>Libro 26/10/20     <td><a id="loc" href="https://jdevelopers.xyz/doc-priv/Gastos26_octubre_20.pdf">     Descargar</a><td> </li>
+
+		<li>Libro 24/10/20     <td><a id="loc" href="https://jdevelopers.xyz/doc-priv/Gastos24_octubre_20.pdf">     Descargar</a><td></li>
 
 
 
@@ -69,6 +63,8 @@
 	
 
 </div>
+
+<h3>Database Google drive →→ <a href="https://drive.google.com/drive/folders/17oRbI1HRtdK6amDopZB-p18VDXgEGxkI?usp=sharing"> Acceder <botton id="bt"></h3> 
 	
 </body>
 </html>
