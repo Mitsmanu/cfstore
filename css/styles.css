@@ -251,7 +251,7 @@ footer p {
 }
 
 .card1-img {
-  background-image: url("../catalogoimg/Amarilla.png");
+  background-image: url("../catalogoimg/roja.png");
 }
 
 .card2-img {
@@ -941,11 +941,11 @@ footer .social-links ul {
 }
 
 .card-collection .img-collection {
-  background-image: url("/img/guitars/gamma1.jpeg");
+  background-image: ("/catalogoimg/roja.png");
 }
 
 .card-collection .img2-collection {
-  background-image: url("/img/guitars/caraya c-55.jpeg");
+  background-image: url("/catalogoimg/Amarilla.png");
 }
 
 .card-collection .img3-collection {
