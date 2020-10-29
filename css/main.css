@@ -156,14 +156,14 @@ nav a:active {
 
   background:
     linear-gradient(to top, rgba(48, 32, 19, .8), rgba(48, 32, 19, 0) 50%),
-    url("../images/banner.jpg") no-repeat center bottom / cover;
+    url("../img/background/background1.jpg") no-repeat center bottom / cover;
   height: 400px;
   color: #fff;
 }
 
 .gifts-banner {
 
-  background: url("../images/card-3.jpg") no-repeat center bottom / cover;
+  background: url("../img/background/mini_2.jpg") no-repeat center bottom / cover;
   background-color: rgba(48, 32, 19, 10);
   height: 400px;
   color: #fff;
@@ -173,7 +173,7 @@ nav a:active {
 
 .chocolate-banner {
 
-  background: url("../images/card-1.jpg") no-repeat center bottom / cover;
+  background: url("../img/background/mini_1.jpg") no-repeat center bottom / cover;
   background-color: rgba(48, 32, 19, 10);
   height: 400px;
   color: #fff;
@@ -183,7 +183,7 @@ nav a:active {
 
 .experience-banner {
 
-  background: url("../images/chef-3.jpg") no-repeat center bottom / cover;
+  background: url("../img/background/mini_3.jpg") no-repeat center bottom / cover;
   background-color: rgba(48, 32, 19, 10);
   height: 400px;
   color: #fff;
@@ -284,9 +284,10 @@ nav a:active {
 }
 
 .copyp1{
-  color: yellow;
+  color: #F71A71;
   text-align: center;
   font-size: 17px;
+  font-family: Lobster, cursive;
 }
 
 .promo-links li {
@@ -303,13 +304,19 @@ form {
   margin: 0 auto;
 }
 
+.a1q {
+  color: #F71A71;
+  font-family: Lobster, cursive;
+}
+
 footer {
-  background: url("../images/icon.svg") center bottom / cover;
+  background: url("../img/background/footer3.jpg");
   background-size: 67px auto;
-  height: 100px;
+  height: 95px;
   margin-top: 3rem;
   background-color: #481600;
   color: #fff;
+  font-family: Lobster, cursive;
 }
 
 .table-margin {
@@ -416,6 +423,11 @@ footer {
     font-size: 1.25rem;
     color: #fff;
     margin-top: 0;
+  }
+
+  .per:hover{
+    font-size: 19px;
+
   }
 
 }
