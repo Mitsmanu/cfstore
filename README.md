@@ -1,6 +1,6 @@
 ---
 summary: 'Create a single-page website for a confectionery store—showing what you learned this term.'
-time: '125 hours'
+time: '159 hours'
 deliverables: '5 HTML file, 7 CSS files, images, v php file and '
 Demo: 'https://www.folklore-panama.online'
 ---
