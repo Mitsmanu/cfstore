@@ -80,6 +80,10 @@ body{
   height: 50%;
   width: 100%;
 }
+
+a{
+	text-decoration: none;
+}
 .image__style {
   width: 100%;
 }
@@ -234,7 +238,7 @@ body{
     justify-content: space-between;
   }
   .content__link {
-    color: #3a3a3a;
+    color: #154a69;
     margin: 1rem;
     padding-top: 0.1rem;
     padding-bottom: 0.4rem;
