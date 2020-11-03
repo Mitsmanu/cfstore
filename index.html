@@ -34,30 +34,37 @@
 alert("Pagina en mantenimiento, por favor ingrese sus credenciales.\n"+
     "La página Artesanias y Creaciones Folkloricas Paola se encuentra en mantenimiento, es por ello que el acceso es limitado a usuarios administrativos ")
 
-  var op = prompt("Ingrese usuario administrativo");
-  var user = "Manu";
-  var user2 = "Mayra";
-  var user3 = "Efrain";
-  var pass = "12345";
-  var pass2 = "Chayotito321";
-  var pass3 = "4dejulio";
-  var pass4 = "access";
+  
+  var conf = prompt("Es usuario administrativo? ingrese 'Sí' para acceder o 'No' para obtener más información");
+  var ans = "Sí";
+  if(conf === ans){
+      var op = prompt("Ingrese usuario administrativo");
+      var user = "Manu";
+      var user2 = "Mayra";
+      var user3 = "Efrain";
+      var pass = "12345";
+      var pass2 = "Chayotito321";
+      var pass3 = "4dejulio";
+      var pass4 = "access";
 
-  if(op === user || op === user2 || op === user3 || utr === pass4){
-    var utr = prompt("Ingrese su contraseña")
+      if(op === user || op === user2 || op === user3 || utr === pass4){
+        var utr = prompt("Ingrese su contraseña")
 
-    if(utr === pass || utr === pass2 || utr === pass3){
-      alert("Bienvenido")
-    }else{
-      alert("Constraseña incorrecta")
-      location.href="https://www.folklore-panama.online"
-    }
+        if(utr === pass || utr === pass2 || utr === pass3){
+          alert("Bienvenido")
+        }else{
+          alert("Constraseña incorrecta")
+          location.href="https://www.folklore-panama.online"
+        }
 
 
+      }else{
+        alert("Acceso denegado")
+        location.href="http://www.google.com";
+        alert("Redireccionando a Google.com");
+      }
   }else{
-    alert("Acceso denegado")
-    location.href="http://www.google.com";
-    alert("Redireccionando a Google.com");
+    location.href="./jscount/index.html"
   }
 
 
