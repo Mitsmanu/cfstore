@@ -25,6 +25,7 @@ if (!empty($_POST['nombre']) && !empty($_POST['ape_pat']) && !empty($_POST['ape_
     
 ?>
 
+
    
 
 <DOCTYPE html>
