@@ -32,6 +32,7 @@ $email=$_POST['correo'];
     //echo "Failed" .$e;
   }
 }
+
 ?>
 
 
