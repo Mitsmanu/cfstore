@@ -225,6 +225,9 @@ nav a:active {
 .btn-light {
   background-color: #666;
 }
+#home{
+  border-radius: 85%;
+}
 
 .link-card-group {
   text-align: center;
@@ -383,6 +386,7 @@ footer {
     float: left;
     width: 35px;
     padding-top: .3rem;
+    border-radius: 81%;
   }
 
   .embed-card {
