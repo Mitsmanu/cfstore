@@ -8,6 +8,11 @@
   src: url("../fonts/Gotham Rounded Light.otf");
 }
 
+#log{
+  width: 200px;
+  height: 300;
+}
+
 @font-face {
   font-family: 'Helvetica-Neue-Light';
   src: url("../fonts/HelveticaNeue.ttc");
@@ -124,8 +129,8 @@ header li a.btn:hover {
 
 .home-page {
   width: 100%;
-  height: 60vh;
-  background: url("../img/audio-e-guitars-guitars-music-6966.jpg") bottom/cover no-repeat;
+  height: 30vh;
+  background-color: yellow;
 }
 
 .container {
@@ -259,35 +264,35 @@ footer p {
 }
 
 .card3-img {
-  background-image: url("../img/guitars/yamaha cs40.jpg");
+  background-image: url("../catalogoimg/cele15.png");
 }
 
 .card4-img {
-  background-image: url("../img/guitars/gamma2.jpeg");
+  background-image: url("../catalogoimg/verde15.png");
 }
 
 .card5-img {
-  background-image: url("../img/bass/gamma.jpeg");
+  background-image: url("../catalogoimg/rods15.png");
 }
 
 .card6-img {
-  background-image: url("../img/bass/ibanez.jpg");
+  background-image: url("../catalogoimg/pastel15.png");
 }
 
 .card7-img {
-  background-image: url("../img/bass/kg.jpg");
+  background-image: url("../catalogoimg/narjpueq.png");
 }
 
 .card8-img {
-  background-image: url("../img/bass/yahama.jpg");
+  background-image: url("../catalogoimg/nrgpqu.png");
 }
 
 .card9-img {
-  background-image: url("../img/guitars/ibanez-eletric.jpg");
+  background-image: url("../catalogoimg/amarillasmall.png");
 }
 
 .card10-img {
-  background-image: url("../img/guitars/jackson.jpg");
+  background-image: url("../catalogoimg/multi.png");
 }
 
 .card11-img {
@@ -949,21 +954,33 @@ footer .social-links ul {
 }
 
 .card-collection .img3-collection {
-  background-image: url("/img/guitars/yamaha cs40.jpg");
+  background-image: url("/catalogoimg/cele15.png");
 }
 
 .card-collection .img4-collection {
-  background-image: url("/img/guitars/gamma2.jpeg");
+  background-image: url("/catalogoimg/verde15.png");
 }
 
 .card-collection .img5-collection {
-  background-image: url("/img/bass/gamma.jpeg");
+  background-image: url("/catalogoimg/rods15.png");
 }
 
 .card-collection .img6-collection {
-  background-image: url("/img/bass/ibanez.jpg");
+  background-image: url("/catalogoimg/pastel15.png");
 }
 
 .card-collection .img7-collection {
-  background-image: url("/img/bass/kg.jpg");
+  background-image: url("/catalogoimg/narjpueq.png");
+}
+
+.card-collection .img7-collection {
+  background-image: url("/catalogoimg/nrgpqu.png");
+}
+
+.card-collection .img7-collection {
+  background-image: url("/catalogoimg/amarillasmall.png");
+}
+
+.card-collection .img7-collection {
+  background-image: url("/catalogoimg/multi.png");
 }
