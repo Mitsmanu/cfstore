@@ -978,33 +978,79 @@ footer .social-links ul {
   margin: 1rem;
 }
 
-.window-notice {
-    background: rgba(33, 41, 52, .85);
-    left: 0;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    display: flex;
-    position: fixed;
-    z-index: 999;
-}
-.window-notice .content {
-    background: #fff;
-    border-radius: 2px;
-    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
-    box-sizing: content-box;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    max-width: 600px;
-    min-width: 320px !important;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    padding: 2rem;
-    font-size: 3.3rem;
+.btn {
+  position: relative;
+  padding: 8px 16px;
+  font-family: 'psychotik';
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #fff;
+  text-shadow: none;
+  border-radius: 16px;
+  background: #00A6B6;
+  box-shadow: inset 2px 2px 1px #007f8b;
 }
 
+.btn:hover {
+  background: #FF9C00;
+  box-shadow: inset 2px 2px 1px #995f02;
+}
+
+#modalContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 6;
+  margin: -2% 0px 0px -150px;
+  float: left;
+  width: 300px;
+  color: #fff;
+  line-height: 22px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #00A6B6;
+  border: 1px solid #fff;
+  box-shadow: 0px 2px 1px #999;
+}
+
+#modal {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  display: none;
+  opacity: 0;
+}
+
+#modal>a {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+:target {
+  display: block!important;
+  opacity: 1!important;
+}
+
+#modalContent>a {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  color: #00A6B6;
+  border-radius: 2px;
+  background: #fff;
+  padding: 4px;
+}
+ 
 .card-collection .img-collection {
   background-image: url("/catalogoimg/roja.png");
 }
