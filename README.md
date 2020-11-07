@@ -1,7 +1,7 @@
 ---
 summary: 'Create a single-page website for a confectionery store—showing what you learned this term.'
 time: '346 hours'
-deliverables: '21 HTML file, 26 CSS files, images, 18 js file, , 5 php file and mk'
+deliverables: '21 HTML file, 26 CSS files, 32 images files, 18 js file, , 5 php file and mk'
 Demo: 'https://www.folklore-panama.online'
 ---
 Deployed status → ![Netlify Status](https://api.netlify.com/api/v1/badges/0c8da0c4-1beb-4b69-ac44-1c41d455a499/deploy-status)
