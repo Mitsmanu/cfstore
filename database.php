@@ -9,6 +9,7 @@
         private function __construct(){}
         public  function conectar(){
 
+            
         try {
             $dsn="mysql:host={$this->servername};dbname=$this->dbname;charset=UTF8";
             $mOptions=array(
