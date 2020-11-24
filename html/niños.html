@@ -6,16 +6,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/526bcd4356.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="./style-main-niñ.css">
     <link href="../images/icon_logo.png" rel="icon">
-    <title>Colección</title>
+    <title>Ropa de bebé</title>
 </head>
 
 <body>
 
+
+   
+
+</div>
+
+
     <header class="home-page bg-secondary ul-text">
         <nav class="navbar1">
-            <ul>
+            <ul id="top">
                 <li><a id="log" href="../index.html"><img src="../images/icon_logo.png" alt=""></a></li>
                 <li><a href="../index.html" class="normal-text dark-color"><i class="fas fa-home normal-text"></i>Inicio</a>
                 </li>
@@ -23,8 +29,7 @@
                             class="fas fa-dice-four normal-text"></i>Novedades</a>
                 </li>
                 <li><a href="../html/cart.html" class="normal-text dark-color"><i
-                            class="fas fa-shopping-cart normal-text"></i>SHOPPING
-                        CART</a>
+                            class="fas fa-shopping-cart normal-text"></i>Carrito</a>
                 </li>
                 <li><a href="#" class="dark-color"><i class="fas fa-envelope-square md-text"></i></a></li>
                 <li><a href="#" class="md-text dark-color">Artesanías y Creaciones Folkloricas Paola</a></li>
@@ -46,7 +51,7 @@
             <input type="text" placeholder="Modelo">
         </form>
 
-        <nav class="home-page navbar2">
+        <!--<nav class="home-page navbar2">
             <div class="img-logo">
                 <a href="../index.html"><img src="../images/logo.png" alt=""></a>
             </div>
@@ -61,7 +66,7 @@
                             class="fas fa-shopping-cart normal-text"></i>  Carrito</a>
                 </li>
             </ul>
-        </nav>
+        </nav>-->
     </header>
 
     <main class="container">
@@ -77,32 +82,38 @@
                 <p class="normal-text text-bold">Tipo</p>
                 <hr>
                 <ul class="xl-text">
-                    <li><input type="checkbox" name="instrument" id="instrument">
-                        <label for="instrument">Tipo 1</label></li>
-                    <li><input type="checkbox" name="strings" id="strings">
-                        <label for="strings">Tipo 2</label></li>
+                    <li><input  type="checkbox" name="instrument" id="instrument">
+                        <label action="./polleras.html" for="instrument"><a id="alink" href="polleras.html">Polleras</a> </label></li>
                     <li><input type="checkbox" name="books" id="books">
-                        <label for="books">Tipo 3</label></li>
+                        <label for="books"><a id="alink" href="./mundi.html">Encajes de mundillo</a></label></li>
+                    <li><input type="checkbox" name="strings" id="strings">
+
+                        <label for="strings"><a id="alink" href="./tembl.html">Tembleques</a></label></li>
+                    <li><input type="checkbox" name="books" id="books">
+                        <label for="books"><a id="alink" href="./camisolas.html">Camisolas</a></label></li>
+                    <li><input type="checkbox" name="books" id="books">
+                        <label for="books"><a id="alink" href="./bebe">Ropa de bebé</a></label></li>
+                    <li><input type="checkbox" name="books" id="books">
+                        <label for="books"><a id="alink" href="./niños.html">Niños</a> ← Estás aquí </label></li>
+                    <li><input type="checkbox" name="books" id="books">
+                        <label for="books"><a id="alink" href="./pet.html">Peticotes</a></label></li>
+                    <li><input type="checkbox" name="books" id="books">
+                        <label for="books"><a id="alink" href="./pntej-tej.html">Pañuelos tejidos</a></label></li>
                 </ul>
 
-                <p class="normal-text text-bold"></p>
+                <p class="normal-text text-bold">Temporadas</p>
                 <hr>
                 <ul class="xl-text">
                     <li><input type="checkbox" name="acoustic" id="acoustic">
-                        <label for="acoustic">Acoustic</label></li>
+                        <label for="acoustic">Navidad</label></li>
                     <li><input type="checkbox" name="electric" id="electric">
-                        <label for="electric">Electric</label></li>
+                        <label for="electric">Fiestas patrias</label></li>
                     <li><input type="checkbox" name="bass" id="bass">
-                        <label for="bass">Bass</label></li>
+                        <label for="bass">Varios</label></li>
                 </ul>
-                <p class="normal-text text-bold">Price Range</p>
-                <hr>
-                <ul class="xl-text">
-                    <li><input type="checkbox" name="low" id="low"><label for="low">100$ - 150$</label></li>
-                    <li><input type="checkbox" name="mid" id="mid"><label for="mid">150$ - 200$</label></li>
-                    <li><input type="checkbox" name="high" id="high"><label for="high">200$ - 500$</label></li>
-                    <li><input type="checkbox" name="exp" id="exp"><label for="exp">500$ - 1000$</label></li>
-                </ul>
+
+
+                
             </div>
             <div class="right-column">
                 <p class="lg-text text-medium dark-color">Productos nuevos</p>
@@ -117,6 +128,8 @@
                         <h6 class="basic-color md-text basic-color">Producto nuevo de edición limitada</h6>
                         <p class="md-text secondary-color text-light">Muñeca de porcelana fria hecha a mano, inspirada en colores de las polleras clasicas y culturales. Edición personalizable.</p>
                         <p class="md-text secondary-color text-light">Se elaboran por pedidos anticipados, esta información está detallada <a  id="lin" href="#">aquí</a></p>
+
+                        <p class="md-text secondary-color text-light">Valor: $17.00 +  </p>
                         <small class="normal-text">En oferta hasta 21 de Diciembre, 2020</small>
                     </div>
                 </div>
@@ -132,6 +145,8 @@
                         <h6 class="basic-color md-text basic-color">Producto nuevo</h6>
                         <p class="md-text secondary-color text-light">Muñeca de porcelana fría hecha a mano, inspirada en colores de las polleras clasicas y culturales. Edición básica</p>
                         </p>
+                        <p class="md-text secondary-color text-light">Valor: $15.00 +  </p>
+                        </p>
                         <small class="normal-text">Venta por pedidos anticipados.</small>
                     </div>
                 </div>
@@ -145,30 +160,15 @@
                     <i class="far fa-plus-square md-text"></i>
 
                     <div class="text-collection">
-                        <h5 class="dark-color lg-text text-bold">Gamma Guitars - Thrasher</h5>
-                        <h6 class="basic-color md-text basic-color">NEW</h6>
+                        <h5 class="dark-color lg-text text-bold">Muñeca de porcelna chica</h5>
+                        <h6 class="basic-color md-text basic-color">Producto nuevo</h6>
                         <p class="md-text secondary-color text-light">Muñequita de porcelana fría hecha a mano, altura de 10cm. </p>
+                        <p class="md-text secondary-color text-light">Valor: $12.00 </p>
                         <small class="normal-text">Venta mediante pedidos anticipados.</small>
                     </div>
                 </div>
 
                 <hr>
-
-                <div class="card-collection">
-
-                    <div class="img6-collection cardImg2">
-                    </div>
-                    <i class="far fa-plus-square md-text"></i>
-                    <div class="text-collection">
-                        <h5 class="dark-color lg-text text-bold">Ibanez xg300-mgs</h5>
-                        <h6 class="basic-color md-text basic-color">NEW</h6>
-                        <p class="md-text secondary-color text-light">Electric guitar Ibanez XG300-MGS. Just as the
-                            metamorphosis
-                            of heavy metal has never stopped, neither do the weapons of engagement. Designed in ..
-                        </p>
-                        <small class="normal-text">21 Feb, 2020</small>
-                    </div>
-                </div>
 
 
                 <hr>
@@ -179,12 +179,11 @@
                     </div>
                     <i class="far fa-plus-square md-text"></i>
                     <div class="text-collection">
-                        <h5 class="dark-color lg-text text-bold">KG Guitars Deluxe Bass</h5>
-                        <h6 class="basic-color md-text basic-color">NEW</h6>
-                        <p class="md-text secondary-color text-light">Construction/Scale:Bolt-on 860mm, Bridge: Hipshot,
-                            Body:Ash-Makasa Top, Neck: Maple, Fingerboard: Rosewood, Pickups: Delano, Tuners:
-                            Hipshot</p>
-                        <small class="normal-text">21 Feb, 2020</small>
+                        <h5 class="dark-color lg-text text-bold">Muñequita de porcelana fría tamaño pequeño</h5>
+                        <h6 class="basic-color md-text basic-color">Producto nuevo</h6>
+                        <p class="md-text secondary-color text-light">Muñequita de porcelana fria tamaño pequeño, ideal para ambientes de oficina o habitaciones.</p>
+                        <p class="md-text secondary-color text-light">Valor: $10.00</p>
+                        <small class="normal-text">Venta mediante pedidos anticipados.</small>
                     </div>
                 </div>
 
