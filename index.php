@@ -46,4 +46,5 @@ require 'partials/header.php'
     <?php endif; ?>
 
 </body>
+
 </html>
