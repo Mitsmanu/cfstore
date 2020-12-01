@@ -194,8 +194,6 @@ nav a:active {
     color: white;
     font-family:   Lobster, cursive;
     outline: none;
-    margin-left: 15%;
-    margin-right: 15%;
     padding: 1.2%
 }
 #detai:target{
